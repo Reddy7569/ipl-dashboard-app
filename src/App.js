@@ -12,7 +12,7 @@ const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/team-matches/:id" component={TeamMatches} />
-    <Route component={NotFound} />
+    <Route exact path ="/not-found"component={NotFound} />
   </Switch>
 )
 
